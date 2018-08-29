@@ -33,7 +33,7 @@ namespace Pangatoo
                                 Console.WriteLine("Olete sisse logitud.");
                                 while (true)
                                 {
-                                    Console.Write("Kas te soovite raha maha võtta [Maha/Lisada] või vaadata jääki[Vaadata] või [lahkuda]: ");
+                                    Console.Write("Kas te soovite raha maha võtta [Maha/Lisada] või vaadata jääki[Vaadata] või [Lahkuda]: ");
                                     string answer = Console.ReadLine();
                                     if (answer.ToLower() == "maha")
                                     {
